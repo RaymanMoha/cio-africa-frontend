@@ -22,16 +22,6 @@ Start the development server:
 npm run start
 ```
 
-5. Run tests:
-```bash
-npm run test
-```
-
-6. Run linting:
-```bash
-npm run lint
-```
-
 ## Project Structure
 
 ```
