@@ -1,107 +1,120 @@
-Cio Africa Frontend Skill Test
+# CIO News App
 
-[Cio Frontend Dev](https://cio-frontend-dev-raymanmohas-projects.vercel.app)
+A modern web application for delivering technology and business news targeted at Chief Information Officers (CIOs) and IT leaders.
 
+## Setup Instructions
 
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- Git
 
-# Cio Africa Frontend Skill Test
+### Installation
 
-## Overview
+1. Clone the repository:
+```bash
+git clone https://github.com/RaymanMohs/cio-news-app
+cd cio-news-app
+```
 
-This project is the frontend of the **Cio** application, built with modern technologies like **React** and **Tailwind CSS** for a responsive, fast, and scalable UI.
-
-## Prerequisites
-
-Ensure you have the following installed before setting up the project:
-
-- **Node.js** (v14 or later)
-- **npm** (v6 or later)
-
-## Installation
-
-### 1. Clone the repository
-
-```bashRunning in Dev Environment
-To start the development server, follow these steps:
-
-1. Navigate to the project directory
-git clone https://github.com/RaymanMoha/cio-frontend.git
-
-cd cio-frontend
-2. Install all required dependencies (if not already done)
+2. Install dependencies:
+```bash
 npm install
-3. Start the development server
-npm start
-The application should now be running at http://localhost:3000.
+```
 
-.env File
-This project supports environment variables using an .env file. You can configure various environment settings by updating this file.
+3. Start the mock API server:
+```bash
+json-server --watch db.json --port 8000
+```
 
-Folder Structure
+4. Start the development server:
+```bash
+npm run start
+```
 
-.
+5. Run tests:
+```bash
+npm run test
+```
+
+6. Run linting:
+```bash
+npm run lint
+```
+
+## Project Structure
+
+```
+cio-news-app/
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   ├── components/
+│   │   ├── AdvertisementBanner/
+│   │   ├── ContentPanel/
+│   │   ├── Descriptor/
+│   │   ├── EdgeMenu/
+│   │   └── SectionTitle/
+│   ├── constants/
+│   │   └── data.ts
+│   ├── pages/
+│   │   ├── Home/
+│   │   └── Article/
+│   ├── services/
+│   │   └── api.ts
+│   ├── utils/
+│   ├── App.tsx
+│   └── index.tsx
+├── public/
+├── tests/
+├── db.json
 ├── package.json
-├── postcss.config.js
-├── vite.config.js
-├── index.html
-├── public
-│   ├── assets
-│   │   ├── images --------- All Project Images
-│   │   └── fonts ---------- Project Fonts
-│   ├── favicon.ico
-│   ├── manifest.json
-│   └── robots.txt
-├── README.md
-├── src
-│   ├── App.jsx
-│   ├── components --------- UI and Detected Common Components
-│   ├── constants ---------- Project Constants
-│   ├── hooks -------------- Helpful Hooks
-│   ├── index.jsx
-│   ├── pages -------------- All Route Pages
-│   ├── Routes.jsx --------- Routing
-│   ├── styles
-│   │   ├── index.css ------ Other Global Styles
-│   │   └── tailwind.css --- Default Tailwind Modules
-│   ├── util
-│   │   └── index.jsx ------ Helpful Utils
-├── tailwind.config.js ------ Entire Theme Config, Colors, Fonts, etc.
+├── tsconfig.json
+└── README.md
+```
 
-├── package.json
-├── postcss.config.js
-├── vite.config.js
-├── index.html
-├── public
-│   ├── assets
-│   │   ├── images --------- All Project Images
-│   │   └── fonts ---------- Project Fonts
-│   ├── favicon.ico
-│   ├── manifest.json
-│   └── robots.txt
-├── README.md
-├── src
-│   ├── App.jsx
-│   ├── components --------- UI and Detected Common Components
-│   ├── constants ---------- Project Constants
-│   ├── hooks -------------- Helpful Hooks
-│   ├── index.jsx
-│   ├── pages -------------- All Route Pages
-│   ├── Routes.jsx --------- Routing
-│   ├── styles
-│   │   ├── index.css ------ Other Global Styles
-│   │   └── tailwind.css --- Default Tailwind Modules
-│   ├── util
-│   │   └── index.jsx ------ Helpful Utils
-├── tailwind.config.js ------ Entire Theme Config, Colors, Fonts, etc.
+## Features
 
-Deployment Status
-Status: Ready
-Environment: Production (Staged)
-Duration: 42s (deployed 3 minutes ago)
-Visit the Application
-The project is deployed on Vercel. You can access the deployed application via the following domains:
+- Latest technology news and insights
+- Categorized content browsing
+- Responsive design for all devices
+- Tag-based navigation
+- Search functionality
+- Advertisement integration
 
-cio-frontend-dev-raymanmohas-projects.vercel.app
-cio-frontend-dev-git-main-raymanmohas-projects.vercel.app
-cio-frontend-eyqrpow3u-raymanmohas-projects.vercel.app
+## Available Scripts
 
+- `npm run start` - Starts the development server
+- `npm run build` - Creates a production build
+- `npm run test` - Runs the test suite
+- `npm run lint` - Runs ESLint to check code quality
+- `npm run format` - Formats code using Prettier
+- `json-server --watch db.json --port 8000` - Starts the mock API server
+
+## Technology Stack
+
+- React
+- TypeScript
+- Tailwind CSS
+- JSON Server (for mock API)
+- Jest (for testing)
+- ESLint & Prettier (for code quality)
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+Rayman Mohs - [@RaymanMohs](https://github.com/RaymanMohs)
+
+Project Link: [https://github.com/RaymanMohs/ci
