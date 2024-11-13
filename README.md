@@ -10,7 +10,7 @@
 
 Clone the repository:
 ```bash
-git clone https://github.com/RaymanMohs/cio-africa-frontend
+git clone https://github.com/RaymanMoha/cio-africa-frontend
 ```
 Install dependencies:
 ```bash
@@ -63,16 +63,14 @@ cio-app/
 
 
 
-## Available Scripts
+## Scripts
 
 - `npm run start` - Starts the development server
 - `npm run build` - Creates a production build
-- `npm run test` - Runs the test suite
-- `npm run lint` - Runs ESLint to check code quality
 
 
 ## Contact
 
-Rayman Mohs - [@RaymanMohs](https://github.com/RaymanMohs)
+Mohammed- [@RaymanMohs](https://github.com/RaymanMoha)
 
-Project Link: [https://github.com/RaymanMohs/ci
+Project Link: [https://github.com/RaymanMoha/ci0-africa-frontend]
